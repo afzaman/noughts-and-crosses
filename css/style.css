@@ -1,0 +1,22 @@
+.gametile {
+    border: 1vh solid #90cec9;
+    height: 100%;
+    width: 100%;
+    border-radius: 1vh;
+    font-size: 5VH;
+    text-align: center;
+}
+#container {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    width: 50vh;
+    height: 50vh;
+    padding: 3vh;
+    border-width: 2vh;
+    border-style: solid;
+    border-color: #90cec9;
+    border-radius: 5vh;
+    column-gap: 1.5vh;
+    row-gap: 1.5vh;
+    margin: auto;
+  }
